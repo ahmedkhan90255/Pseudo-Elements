@@ -1,0 +1,38 @@
+.heading1::first-line {
+    text-transform: uppercase;
+    color: rgb(255, 0, 0);
+    background-color: black;
+    text-decoration: underline;
+}
+ul {
+    list-style-type: decimal-leading-zero;
+    margin: 36px 49px 20px 59px;
+}
+li {
+    margin: 36px 0px 0px 0px;
+}
+a {
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: bold;
+    color: deeppink;
+}
+a:link {
+    font-size: 20px;
+}
+a:visited {
+    text-decoration: underline;
+    color: black;
+}
+a:hover {
+    background-color: blue;
+    color: red;
+}
+a:active {
+    background-color: aqua;
+    color: yellow;
+}
+/* a:focus {
+    background-color: teal;
+    color: royalblue;
+} */
